@@ -35,6 +35,7 @@ Using [packer.nvim](https://github.com/wbthomason/packer.nvim):
 ```lua
 use {
     'olimorris/onedark.nvim',
+    branch = 'lush',
     requires = 'rktjmp/lush.nvim'
 }
 ```
