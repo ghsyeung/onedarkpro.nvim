@@ -1,4 +1,5 @@
-local lush = require('lush')
+vim.cmd("echohl WarningMsg | echom \"OneDarkPro.nvim: The Lush branch will soon be removed. Please move to the main branch instead\" | echohl NONE")
+local lush = require("lush")
 local hsl = lush.hsl
 ----------------------------------COLOR PALETTE---------------------------------
 local colors = {
